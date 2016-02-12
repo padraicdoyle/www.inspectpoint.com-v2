@@ -124,7 +124,7 @@ blockquote {
   font-size: 14px;
 }
 .text-highlight {
-  color: #2e5f28;
+  color: #AA2B14;
 }
 #topcontrol {
   background: #ec6952;
@@ -563,7 +563,7 @@ select {
   color: #ec6952;
 }
 .footer .footer-col a:hover {
-  color: #1d3b19;
+  color: #AA2B14;
 }
 .footer .bottom-bar {
   background: #444;
@@ -1318,6 +1318,17 @@ body.modal-open {
   color: #ec6952;
   text-shadow: none;
 }
+
+.systems .features-intro .features-list li {
+  margin-bottom: 15px;
+}
+.systems .features-intro .features-list li .fa {
+  margin-right: 10px;
+  color: #ec6952;
+  text-shadow: none;
+}
+
+
 .features-promo .features-video {
   padding-top: 60px;
 }
