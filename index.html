@@ -49,35 +49,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
       })();
     </script>
-
-    <!-- Start of Async Drift Code -->
-    <script>
-    "use strict";
-
-    !function() {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-        t.factory = function(e) {
-          return function() {
-            var n = Array.prototype.slice.call(arguments);
-            return n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-          var i = document.getElementsByTagName("script")[0];
-          i.parentNode.insertBefore(o, i);
-        };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('urnfai4az9pu');
-    </script>
-    <!-- End of Async Drift Code -->
 </head>
 
 <body class="home-page">
@@ -137,7 +108,7 @@
                 <div class="signup">
                     <div class="container text-center">
                         <h3 class="title">Ready To Kickstart Your Inspection Business?</h3>
-                        <p class="summary">See for yourself what Inspect Point can do for your fire sprinkler inspection business</p>
+                        <p class="summary">See for yourself what Inspect Point can do for your fire inspection business</p>
                         <a class="btn-lg btn-cta btn-cta-primary" href="https://info.inspectpoint.com/request-a-demo">Request a Demo</a>
                     </div><!--//contianer-->
                 </div><!--//signup-->
@@ -160,7 +131,7 @@
         <section id="why" class="why section">
             <div class="container">
                 <h2 class="title text-center">Why Inspect Point</h2>
-                <p class="intro text-center">Here are just a few reasons why our customers chose Inspect Point for their sprinkler inspection business</p>
+                <p class="intro text-center">Here are just a few reasons why our customers chose Inspect Point for their fire and life safety inspection business</p>
                 <div class="row">
                     <div class="benefits col-md-7 col-sm-6 col-xs-12">
                         <div class="item clearfix">
@@ -305,7 +276,7 @@
         <section id="signup" class="signup">
             <div class="container text-center">
                 <h2 class="title">Ready to kickstart your business with Inspect Point?</h2>
-                <p class="summary">See for yourself what Inspect Point can do for your fire sprinkler inspection business</p>
+                <p class="summary">See for yourself what Inspect Point can do for your fire inspection business</p>
                 <a class="btn-lg btn-cta btn-cta-primary" href="https://info.inspectpoint.com/request-a-demo">Request a Demo</a>
             </div>
         </section><!--//signup-->
